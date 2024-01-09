@@ -1,0 +1,28 @@
+body {
+  background-color: #000000;
+}
+
+.container {
+  width: 50%;
+  margin-left: 25%;
+  text-align: center;
+}
+
+h1 {
+  color: #ffffff;
+  font-size: 20pt;
+  font-family: "Libre Baskerville", serif;
+  text-transform: uppercase;
+  margin: 15px 0px 8px 0px;
+}
+
+p {
+  color: #ffffff;
+  font-size: 10pt;
+  margin: 0;
+}
+
+img {
+  width: 100%;
+  border: 5px solid #ffffff;
+}
