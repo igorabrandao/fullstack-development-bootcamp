@@ -6,19 +6,19 @@ body {
   width: 50%;
   margin-left: 25%;
   text-align: center;
+  font-family: "Libre Baskerville", serif;
 }
 
 h1 {
   color: #ffffff;
-  font-size: 20pt;
-  font-family: "Libre Baskerville", serif;
+  font-size: 2rem;
   text-transform: uppercase;
   margin: 15px 0px 8px 0px;
 }
 
 p {
   color: #ffffff;
-  font-size: 10pt;
+  font-size: 1rem;
   margin: 0;
 }
 
