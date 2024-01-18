@@ -1,0 +1,26 @@
+/* Flag base */
+.flag {
+  width: 720px;
+  height: 504px;
+  background-color: #009b3a;
+  position: relative;
+}
+
+/* Inner diamond */
+.flag > div:nth-child(1) {
+  width: 281px;
+  height: 281px;
+  background-color: #fedf00;
+  position: absolute;
+  transform: rotate(45deg);
+  top: 25%;
+  left: 25%;
+}
+
+/* Inner circle */
+.flag > div:nth-child(2) {
+  width: 252px;
+  height: 252px;
+  background-color: #002776;
+  border-radius: 50%;
+}
