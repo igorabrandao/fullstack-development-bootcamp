@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mondrian Project</title>
+    <style>
+      /* 
+        Write your CSS here 
+        Gap Colour: #000
+        White: #F0F1EC
+        Red: #E72F24
+        Black: #232629
+        Blue: #004592
+        Yellow: #F9D01E
+
+        For dimensions, see dimensions.png image.
+        HINT: Remember you can't change the properties of grid lines.
+        But grid lines are transparent!
+      */
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: #fff;
+      }
+
+      .container {
+        display: grid;
+        grid-template-columns: 320px 360px 50px;
+        grid-template-rows: 414px 296px 20px;
+        grid-gap: 9px;
+        width: 748px;
+        height: 748px;
+      }
+
+      .container > * {
+        background-color: #f0f1ec;
+      }
+
+      .section2 {
+        grid-column-end: span 2;
+      }
+
+      .section5 {
+        display: grid;
+        grid-template-rows: 130px 1fr;
+        grid-gap: 10px;
+        grid-row-end: span 2;
+      }
+
+      .section7 {
+        display: grid;
+        grid-column: 2 / 3;
+        grid-gap: 9px;
+        grid-template-columns: 198px 153px;
+      }
+
+      /* Color classes  */
+      .white {
+        background-color: #f0f1ec;
+      }
+
+      .red {
+        background-color: #e72f24;
+      }
+
+      .black {
+        background-color: #232629;
+      }
+
+      .blue {
+        background-color: #004592;
+      }
+
+      .yellow {
+        background-color: #f9d01e;
+      }
+
+      .border {
+        background-color: #000;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="border">
+      <div class="container">
+        <div class="red"></div>
+        <div class="section2"></div>
+        <div></div>
+        <div></div>
+        <div class="border section5">
+          <div class="blue"></div>
+          <div class="white"></div>
+        </div>
+        <div></div>
+        <div class="border section7">
+          <div class="yellow"></div>
+          <div class="black"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
